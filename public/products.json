@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Mesh And Tie-Up Lace Sneaks",
+    "price": "₦26,000",
+    "category": "Unisex",
+    "originalPrice": "₦30,500",
+    "image": "/images/uni.jpg",
+    "badges": ["On Sale", "Hot"]
+  },
+  {
+    "name": "Lacoste Chinos – Carton Brown Long Sleeve",
+    "price": "₦28,000",
+    "category": "Men",
+    "image": "/images/lasc.jpg",
+    "badges": ["New"]
+  },
+  {
+    "name": "Cutout Denim Jumpsuit | Blue",
+    "price": "₦41,000",
+    "category": "Women",
+    "originalPrice": "₦50,000",
+    "image": "/images/Women Cutout Denim Jumpsuit blue online shopping website-540x720.jpg",
+    "badges": ["On Sale", "Trending"]
+  },
+  {
+    "name": "Plain Pant Trousers | Grey",
+    "price": "₦29,000",
+    "category": "Men",
+    "originalPrice": "₦34,000",
+    "image": "/images/Plain Pant Trousers grey-540x720.jpg",
+    "badges": ["Best Seller"]
+  },
+  {
+    "name": "Luxury Lacy Maxi Dress | Black",
+    "price": "₦63,000",
+    "category": "Women",
+    "image": "/images/Luxury Lacy Maxi Dress Black online shopping website-540x720.jpg",
+    "badges": ["New", "Exclusive"]
+  },
+  {
+    "name": "Corteiz Elitework Shell Jacket",
+    "price": "₦77,000",
+    "category": "Men",
+    "originalPrice": "₦85,000",
+    "image": "/images/Corteiz Elitework Shell Jacket (4)-540x720.jpg",
+    "badges": ["On Sale"]
+  },
+  {
+    "name": "BBC ICECREAM Vee Cream Running Dog Jorts Short Nicker",
+    "price": "₦16,900",
+    "category": "Men",
+    "image": "/images/BBC Ice Cream Running Dog Jorts STW Dexstitches Website (4)-540x720.jpg",
+    "badges": ["Best Seller", "Hot"]
+  },
+  {
+    "name": "New Crocs Salehe Bembury Menemsha",
+    "price": "₦126,600",
+    "category": "Unisex",
+    "originalPrice": "₦130,000",
+    "image": "/images/New Crocs Salehe Bembury Menemsha.jpg",
+    "badges": ["Limited", "Exclusive"]
+  }
+]
