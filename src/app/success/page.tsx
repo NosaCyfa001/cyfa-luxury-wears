@@ -68,7 +68,7 @@ export default function SuccessPage() {
             {/* Success Message */}
             <div className="mb-8 text-center">
               <p className="text-gray-700 leading-relaxed mb-2">
-                We've received your order and will begin processing it right away.
+                We&apos;ve received your order and will begin processing it right away.
               </p>
               <p className="text-gray-600 text-sm">
                 A confirmation email has been sent to your registered email address.

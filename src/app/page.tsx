@@ -7,7 +7,6 @@ import {
   ShoppingBagIcon,
   TruckIcon,
   ShieldCheckIcon,
-  StarIcon,
   ArrowRightIcon,
 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";

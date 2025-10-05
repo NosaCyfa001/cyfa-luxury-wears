@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
 import { useCartStore } from "../../../../store/cart-store";
 
 interface Product {
