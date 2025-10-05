@@ -16,7 +16,6 @@ import {
   Twitter,
   Linkedin,
   HeadphonesIcon,
-  ShoppingBagIcon
 } from "lucide-react";
 import { useState } from "react";
 
@@ -55,7 +54,7 @@ export default function ContactPage() {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Us",
       details: ["cyfaluxurywears@gmail.com"],
-      description: "We'll respond within 24 hours"
+      description: "We will respond within 24 hours"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -81,7 +80,7 @@ export default function ContactPage() {
     },
     {
       question: "How can I track my order?",
-      answer: "You'll receive a tracking number via email once your order ships. You can also track orders in your account."
+      answer: "You will receive a tracking number via email once your order ships. You can also track orders in your account."
     },
     {
       question: "Do you offer custom sizing?",
@@ -130,7 +129,7 @@ export default function ContactPage() {
             transition={{ duration: 1, delay: 0.6 }}
             className="text-xl md:text-2xl text-gray-200 font-light leading-relaxed max-w-2xl mx-auto"
           >
-            We're here to help you discover the perfect luxury pieces and answer any questions about your style journey.
+            We are here to help you discover the perfect luxury pieces and answer any questions about your style journey.
           </motion.p>
         </motion.div>
       </section>
@@ -195,7 +194,7 @@ export default function ContactPage() {
                 <h3 className="text-3xl font-bold text-gray-900 mb-2">Send us a Message</h3>
                 <p className="text-gray-600 mb-8 leading-relaxed">
                   Have a question about our products, need styling advice, or want to learn more about Cyfa Luxury? 
-                  We'd love to hear from you.
+                  We would love to hear from you.
                 </p>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -484,7 +483,7 @@ export default function ContactPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Business Partnerships</h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Interested in wholesale opportunities, collaborations, or carrying Cyfa Luxury in your store? 
-                We're always looking for like-minded partners who share our vision of accessible luxury.
+                We are always looking for like-minded partners who share our vision of accessible luxury.
               </p>
               
               <div className="grid md:grid-cols-2 gap-6">

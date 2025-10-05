@@ -57,7 +57,7 @@ export default function SuccessPage() {
                     <p className="text-sm text-gray-600 mb-1">Order Number</p>
                     <p className="text-2xl font-bold text-gray-900 font-mono">{orderNumber}</p>
                   </div>
-                  <button className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition text-sm font-medium text-gray-700">
+                  <button className="flex items-center gap-2 px-4 py-2 cursor-pointer bg-white border border-gray-300 rounded-lg hover:bg-gray-50 transition text-sm font-medium text-gray-700">
                     <Download className="w-4 h-4" />
                     Receipt
                   </button>
@@ -79,7 +79,7 @@ export default function SuccessPage() {
             <div className="mb-8">
               <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
                 <span className="bg-gradient-to-r from-red-500 to-pink-500 text-transparent bg-clip-text">
-                  What's Next?
+                  What&apos;s Next?
                 </span>
               </h3>
               <div className="space-y-4">
@@ -102,7 +102,7 @@ export default function SuccessPage() {
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900 mb-1">Order Processing</h4>
                     <p className="text-sm text-gray-600">
-                      Your order is being prepared and will ship within 2-3 business days.
+                      Your order is being prepared and will ship within 2–3 business days.
                     </p>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export default function SuccessPage() {
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900 mb-1">Track Your Order</h4>
                     <p className="text-sm text-gray-600">
-                      You'll receive a tracking number once your order ships.
+                      You&apos;ll receive a tracking number once your order ships.
                     </p>
                   </div>
                 </div>

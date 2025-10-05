@@ -3,12 +3,20 @@ import Stripe from "stripe";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {});
 
+interface CartItem {
+  id: string;
+  name: string;
+  image: string;
+  price: string | number;
+  quantity?: number;
+}
+
 export async function POST(req: Request) {
   try {
-    const { items } = await req.json();
+    const { items }: { items: CartItem[] } = await req.json();
 
-    // Convert your cart items to Stripe line items
-    const lineItems = items.map((item: any) => ({
+    // Convert cart items to Stripe line items
+    const lineItems = items.map((item) => ({
       price_data: {
         currency: "ngn",
         product_data: {
@@ -33,7 +41,10 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ id: session.id, url: session.url });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+  } catch (err) {
+    if (err instanceof Error) {
+      return NextResponse.json({ error: err.message }, { status: 500 });
+    }
+    return NextResponse.json({ error: "Unknown error" }, { status: 500 });
   }
 }

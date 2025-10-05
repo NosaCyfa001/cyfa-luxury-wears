@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Twitter, X, Mail, Phone, Clock, MapPin } from "lucide-react";
+import { Facebook, Instagram, X, Mail, Phone, Clock, MapPin } from "lucide-react";
 
 export const Footer = () => {
   return (

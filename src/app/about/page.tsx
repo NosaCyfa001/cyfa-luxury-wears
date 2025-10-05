@@ -123,7 +123,7 @@ export default function AboutPage() {
                   Cyfa 
                   Luxury Wears
                 </span>
-                , fashion is more than just clothing—it's a statement, a
+                , fashion is more than just clothing—it is a statement, a
                 lifestyle, and a reflection of your unique identity. We believe
                 that luxury should be within reach of everyone who appreciates
                 quality and style.
@@ -283,7 +283,7 @@ export default function AboutPage() {
               {
                 icon: <DollarSign className="w-12 h-12 text-red-600 mb-6" />,
                 title: "Accessible Luxury",
-                text: "Luxury fashion shouldn't be exclusive. We make premium quality accessible without compromising on craftsmanship or design.",
+                text: "Luxury fashion should not be exclusive. We make premium quality accessible without compromising on craftsmanship or design.",
               },
             ].map((item, i) => (
               <motion.div
@@ -391,7 +391,7 @@ export default function AboutPage() {
               {
                 icon: <Star className="w-8 h-8 text-red-600" />,
                 title: "Unique Designs",
-                text: "Exclusive collections crafted by our in-house design team. You won't find these pieces anywhere else.",
+                text: "Exclusive collections crafted by our in-house design team. You would not find these pieces anywhere else.",
               },
               {
                 icon: <TruckIcon className="w-8 h-8 text-red-600" />,
