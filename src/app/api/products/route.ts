@@ -1,15 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-
 export const runtime = "nodejs";
 
 import Stripe from "stripe";
 import { NextResponse } from "next/server";
 
 export async function GET() {
+  console.log("🚀 /api/products route hit"); // add this!
+
   try {
     const secret = process.env.STRIPE_SECRET_KEY;
 
-    // 👇 Add this line for debugging
     console.log("🔑 STRIPE_SECRET_KEY:", secret ? "Loaded ✅" : "Missing ❌");
 
     if (!secret) {
@@ -41,4 +41,3 @@ export async function GET() {
     );
   }
 }
-
