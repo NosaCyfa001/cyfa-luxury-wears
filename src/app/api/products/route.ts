@@ -9,6 +9,9 @@ export async function GET() {
   try {
     const secret = process.env.STRIPE_SECRET_KEY;
 
+    // 👇 Add this line for debugging
+    console.log("🔑 STRIPE_SECRET_KEY:", secret ? "Loaded ✅" : "Missing ❌");
+
     if (!secret) {
       console.error("❌ Missing STRIPE_SECRET_KEY in env");
       return NextResponse.json(
@@ -38,3 +41,4 @@ export async function GET() {
     );
   }
 }
+
