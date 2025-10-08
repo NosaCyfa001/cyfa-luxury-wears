@@ -7,7 +7,6 @@ import { NextResponse } from "next/server";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {});
 
 export async function GET(
-  req: Request,
   context: { params: Promise<{ id: string }> } // ✅ Required for Next.js 15
 ) {
   // ✅ Await params (new requirement in Next.js 15)
