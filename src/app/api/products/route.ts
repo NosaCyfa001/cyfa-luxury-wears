@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export const runtime = "nodejs";
 
 import Stripe from "stripe";
@@ -22,10 +24,16 @@ export async function GET() {
     });
 
     return NextResponse.json({ success: true, products: products.data });
-  } catch (error: any) {
-    console.error("❌ Stripe Error:", error.message);
+  } catch (err) {
+    console.error(
+      "Stripe API error:",
+      err instanceof Error ? err.message : err
+    );
     return NextResponse.json(
-      { success: false, error: error.message },
+      {
+        success: false,
+        error: err instanceof Error ? err.message : "Unknown error",
+      },
       { status: 500 }
     );
   }
