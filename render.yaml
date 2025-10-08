@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: cyfa-luxury-wears
+    env: node
+    plan: free
+    region: frankfurt  # or oregon, depending on your preference
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.20.3
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PUBLISHABLE_KEY
+        sync: false
+      - key: NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+        sync: false
